@@ -81,10 +81,11 @@ main {
     font-weight: bold;
 }
 
-.weatehr-app-unit {
+.weather-app-unit {
     margin-top: 6px;
     font-size: 28px;
 }
+
 .weather-forecast {
     display: flex;
     justify-content: space-around;
@@ -100,8 +101,10 @@ main {
 }
 
 .weather-forecast-icon {
-    font-size: 38px;
-    text-align: center;
+    width: 88px;
+    height: 88px;
+    display: block;
+    margin: 0 auto;
 }
 
 .weather-forecast-temperatures {
